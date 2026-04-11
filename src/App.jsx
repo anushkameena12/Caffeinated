@@ -7,6 +7,7 @@ import Contact from "./pages/Contact"
 import Navbar from "./Navbar"
 import Blog from "./pages/Blog"
 import Location from "./pages/Location"
+import Order from "./pages/Order"
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/location" element={<Location />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/order" element={<Order />} />
     </Routes> 
     </BrowserRouter>
     
