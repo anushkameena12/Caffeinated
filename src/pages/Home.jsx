@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className='bg-[#E4C59E] flex-1 flex justify-center items-center gap-10' >
+    <div className='bg-[#E4C59E] h-full flex-1 flex justify-center items-center gap-10' >
       <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-10 items-center' >
         <div className='px-8 '>
         <h1 className='text-6xl text-[#4b2e2e]'>Brewed to Perfection, <br/> Served with Love</h1>

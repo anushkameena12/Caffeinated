@@ -16,12 +16,9 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className="h-screen flex flex-col">    
     <Navbar />
-    <Home/>
-    </div>
     <Routes>
-        
+      <Route path="/" element={<Home />} />  
       <Route path="/shop" element={<Shop />} />
       <Route path="/about" element={<About />} />
       <Route path="/blog" element={<Blog />} />
@@ -33,5 +30,6 @@ function App() {
     
   )
 }
+
 
 export default App
