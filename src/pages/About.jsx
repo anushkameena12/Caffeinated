@@ -12,7 +12,7 @@ const About = () => {
      
       </div>
       <div className='flex flex-col gap-4 justify-center items-center text-center px-4'>
-         <h1 className='text-[#E9C46A] font-bold'>Handmade Just Fr You</h1>
+         <h1 className='text-[#E9C46A] font-bold'>Handmade Just For You</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, mollitia accusantium nihil fuga dolorum quia maiores tenetur, alias quis, odio consequatur placeat voluptatibus voluptatum. Voluptas illo quam error nulla dolorum.</p>
       <button className='bg-[#E9C46A] text-[#3B3030] px-4 py-2 rounded-md font-bold'>View our Menu</button>
 
